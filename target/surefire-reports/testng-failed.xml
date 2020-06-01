@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mirafra.extentreport.GenerateExtentReport">
+        <methods>
+          <include name="getResult"/>
+          <include name="thiedTestCase"/>
+          <include name="init"/>
+          <include name="demofail"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.mirafra.extentreport.GenerateExtentReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

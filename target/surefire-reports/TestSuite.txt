@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 213.18 sec <<< FAILURE! - in TestSuite
+demofail(com.mirafra.extentreport.GenerateExtentReport)  Time elapsed: 0.056 sec  <<< FAILURE!
+java.lang.AssertionError: expected [SpiceJet - Flight stic and International, Cheap Air Tickets] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
+	at com.mirafra.extentreport.GenerateExtentReport.demofail(GenerateExtentReport.java:116)
+
+thiedTestCase(com.mirafra.extentreport.GenerateExtentReport)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.mirafra.extentreport.GenerateExtentReport.thiedTestCase(GenerateExtentReport.java:125)
+
